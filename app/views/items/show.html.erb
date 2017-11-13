@@ -1,0 +1,45 @@
+<div class="container">
+
+<p id="notice"><%= notice %></p>
+
+
+
+
+<p>
+  <strong>Name:</strong>
+  <%= @item.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @item.description %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @item.user.email %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @item.category.name %>
+</p>
+
+<p>
+  <strong>Prices:</strong>
+  <%= @item.prices %>
+</p>
+
+
+
+
+
+<%= image_tag @item.image.url(:medium) %>
+
+<%= image_tag @item.image.url(:medium) %>
+
+
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>
+</div>

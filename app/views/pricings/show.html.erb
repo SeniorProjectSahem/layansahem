@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Daily price:</strong>
+  <%= @pricing.daily_price %>
+</p>
+
+<p>
+  <strong>Monthly price:</strong>
+  <%= @pricing.monthly_price %>
+</p>
+
+<p>
+  <strong>Yearly price:</strong>
+  <%= @pricing.yearly_price %>
+</p>
+
+<p>
+  <strong>Item:</strong>
+  <%= @pricing.item %>
+</p>
+
+<%= link_to 'Edit', edit_pricing_path(@pricing) %> |
+<%= link_to 'Back', pricings_path %>

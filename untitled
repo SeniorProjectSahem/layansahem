@@ -1,0 +1,13 @@
+
+
+<!DOCTYPE html> 
+<html> 
+<body> 
+
+<video width="350" height="300" controls poster="/images/hamad.png">
+  <source src="hamad.mp4" title="Introduction to Hamad Hospital video" caption="This is an introductory video of Hamad Hospital and several of it's services and hospitals which include Heart Hospital, Women's Hospital, and Rumailah Hospital" type="video/mp4">
+  
+</video>
+
+</body> 
+</html>
